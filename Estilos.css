@@ -1,0 +1,131 @@
+/* Principal */
+*{
+    font-family: 'berlin sans FB';
+}
+p{
+    font-size: 32px;
+}
+
+body{
+    background-color: #999999;
+}
+.imagen{
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: 160px;
+    opacity: 1;
+}
+#butonBolsillo{
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: 160px;
+}
+#butonDebito{
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+#butonOtros{
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: 90px;
+    left: 160px;
+}
+/* Secundaria */
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    font-size: 42px;
+}
+.menu li{
+    display: inline-block;
+    width: 20%;
+}
+.menu li a{
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.menu li a:hover{
+    background-color: darkorange;
+    color: black;
+    
+}
+.superMenu{
+    text-align: center;
+}
+.active{
+    background-color: darkorange;
+}
+.contents{
+    background-color: white;
+    border: solid 1px;
+}
+input[type=submit]{
+    background-color: #FF8000;
+    border: 0px;
+    height: 35px;
+    width: 120px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'bubblegum';
+}
+.hideIngreso{
+    visibility: hidden; 
+}
+select{
+    size: 190px;
+    background-color: darkorange;
+    border: 6px solid transparent;
+    font-size: 18px; 
+}
+.saldo_contenedor{
+    background-color: black;
+    height: 150px;
+    font-size: 22px;
+    text-align: center;
+    color: darkorange;
+}
+#saldoForm{
+    visibility: hidden;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-radius: 20px;
+    border: 20px;
+    width: 100%;
+    font-size: 19px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;     
+}
+tr:nth-child(even) {
+    background-color: #FE9A2E;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+.tabla_egresos{
+    border: 10px;
+    margin-left: 25%;
+    margin-top: 10px; 
+    float: left;
+}
+
+
